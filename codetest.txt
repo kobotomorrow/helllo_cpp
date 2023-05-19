@@ -1,0 +1,11 @@
+10
+vec j = [ 3 , 3 , 4 ] ;
+vec a = [ 2 , 8 ] ;
+vec s = [ 5 , 2 , 6 , 3 ] ;
+vec t = [ 1 , 1 , 1 , 1 ] - s - s - s - s ;
+vec o = [ 2 , 2 , 2 , 2 ] - s - s - s - s ;
+print_vec s ;
+print_vec a + a + [ 9 , 9 ] - a ;
+print_int 7 ;
+print_vec [ 2 , 5 , 2 , 5 ] ;
+print_vec s - o - o - o + s ;
