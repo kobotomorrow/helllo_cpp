@@ -1,4 +1,3 @@
-./codetest.cpp
-./.vscode/settings.json
-./a.out
-./codetest
+codetest.cpp
+a.out
+codetest
