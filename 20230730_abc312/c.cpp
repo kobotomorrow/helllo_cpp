@@ -29,13 +29,13 @@ int main() {
     int l = 0;
     int r = 1e9 + 1;
     int mid = 0;
-    while (l < r) {
+    while (l + 1 < r) {
         mid = (l + r) / 2;
         if (urite(mid, a) >= kaite(mid, b)) {
             r = mid;
         } else {
-            l = mid + 1;
+            l = mid;
         }
     }
-    cout << l << endl;
+    cout << r << endl;
 }
